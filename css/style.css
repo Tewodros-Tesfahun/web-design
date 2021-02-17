@@ -1,0 +1,93 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: deepskyblue;
+  height: 112px;
+  line-height: 112px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+header nav {
+  float: right;
+}
+header nav ul li a {
+  padding-right: 50px;
+  font-weight: bold;
+  color: white;
+  transition: all 0.5s ease-in;
+}
+header nav ul li a:hover {
+  text-decoration: none;
+  color: black;
+}
+.AboutMe {
+  position: relative;
+  padding: 100px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(..//image/1.jpg);
+  background-size: 100% 100%;
+  height: 700px;
+  width: 100%;
+}
+.heading {
+  position: relative;
+  color: white;
+  margin-top: 50px;
+}
+.sub-heading {
+  position: relative;
+  font-size: 18px;
+  color: deepskyblue;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.block {
+  position: relative;
+  margin: 50px 0px 0px;
+  padding: 70px 25px 40px;
+}
+.block:hover {
+  background: deepskyblue;
+}
+.block:hover h3 {
+  color: #f6f6f6;
+}
+.block p {
+  color: white;
+}
+.block:hover p {
+  color: black;
+}
+.vision {
+  position: relative;
+  padding: 50px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(..//image/1.jpg);
+  background-size: 100% 100%;
+  height: 700px;
+  width: 100%;
+}
+.interests {
+  position: relative;
+  padding: 50px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(..//image/1.jpg);
+  background-size: 100% 100%;
+  height: 700px;
+  width: 100%;
+}
+.block {
+  transition: 1s ease;
+}
